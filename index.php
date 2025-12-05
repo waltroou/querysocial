@@ -30,6 +30,12 @@ $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <title>QuerySocial Wall</title>
 </head>
 <body>
+    <nav>
+        <a href="index.php">Home</a> |
+        <a href="team.html">Team Info</a>
+    </nav>
+    <hr>
+
     <h1>QuerySocial Wall</h1>
 
     <h2>New Post</h2>
