@@ -86,7 +86,10 @@ $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <a href="team.html">Team Info</a>
     </nav>
 
-    <h1>QuerySocial Wall</h1>
+    <div style="display:flex; align-items:center; gap:15px; padding:10px 0;">
+        <img src="logo.png" alt="QuerySocial Logo" style="height:50px;">
+        <h1>QuerySocial Wall</h1>
+    </div>
 
     <h2>New Post</h2>
     <?php if (!empty($error)): ?>
